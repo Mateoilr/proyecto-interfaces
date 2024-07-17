@@ -21,3 +21,4 @@ describe('Pantalla3Component', () => {
     expect(component).toBeTruthy();
   });
 });
+
