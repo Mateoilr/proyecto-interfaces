@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-pantalla1',
@@ -8,5 +9,10 @@ import { Component } from '@angular/core';
   styleUrl: './pantalla1.component.css'
 })
 export class Pantalla1Component {
+  constructor(private router: Router) {}
+
+  pant3(){
+    this.router.navigate(['/pantalla3']);
+  }
 
 }
