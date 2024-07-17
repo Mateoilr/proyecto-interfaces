@@ -1,66 +1,72 @@
-body{
+body {
     background-color: #F9E8DF;
     font-family: Arial, sans-serif;
-    margin: 10px;
-    padding: 20px;
-
-}
-h1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9E8DF;
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    border: 2px solid #7CB9A8;
+  }
+  
+  h1 {
+    color: #D4A373;
+    font-family: Arial, sans-serif;
     text-align: center;
-    color: green;
     text-shadow: 1px 1px 2px black;
-    margin-top: 20px;
-    margin-block-end: 50px;
-}
-.game-option1 {
+    margin: 20px 0;
+  }
+  
+  .game-option1, .game-option2, .game-option3 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 150px;
-    margin: 20px;
-    padding: 30px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 30px;
-}
-
-.game-option2{
-    display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-
-    float: right;
-    width: 150px;
-    margin: 20px;
-    padding: 30px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 30px;
-
-}
-.game-option3{
-    display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 150px;
-    margin: 20px;
-    padding: 30px;
-    background-color: #fff;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 30px;
-
-
-}
-
-img {
-
+  }
+  
+  img {
     width: 100px;
+    height: auto;
     border-radius: 5px;
-}
-.game-option p {
+  }
+  
+  p {
+    margin: 10px 0;
     font-size: 18px;
-    margin-top: 10px;
-}
+    text-align: center;
+  }
+  
+  button {
+    background-color: #D4A373;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #b38459;
+  }
+  
