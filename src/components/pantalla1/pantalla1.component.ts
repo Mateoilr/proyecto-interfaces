@@ -9,10 +9,11 @@ import { Router } from '@angular/router';
   styleUrl: './pantalla1.component.css'
 })
 export class Pantalla1Component {
-  constructor(private router: Router) {}
+  constructor(private route:Router){
 
-  pant3(){
-    this.router.navigate(['/pantalla3']);
   }
 
+  goToPantalla2(){
+    this.route.navigateByUrl('/pantalla2');
+  }
 }

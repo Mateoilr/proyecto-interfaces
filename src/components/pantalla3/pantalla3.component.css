@@ -1,5 +1,5 @@
 body{
-    background-color: #f0f0f0;
+    background-color: #F9E8DF;
     font-family: Arial, sans-serif;
     margin: 10px;
     padding: 20px;
@@ -13,7 +13,10 @@ h1 {
     margin-block-end: 50px;
 }
 .game-option1 {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 150px;
     margin: 20px;
     padding: 30px;
@@ -23,7 +26,12 @@ h1 {
 }
 
 .game-option2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+    float: right;
     width: 150px;
     margin: 20px;
     padding: 30px;
@@ -33,6 +41,10 @@ h1 {
 
 }
 .game-option3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 150px;
     margin: 20px;
     padding: 30px;
@@ -43,9 +55,9 @@ h1 {
 
 }
 
-.game-option img {
+img {
 
-    width: 100%;
+    width: 100px;
     border-radius: 5px;
 }
 .game-option p {
