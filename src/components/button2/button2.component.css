@@ -1,0 +1,17 @@
+
+button {
+    font-family: "Ribeye", serif;
+    background-color: #D4A373;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    animation-duration: 3s;
+    animation-name: bounceInUp;
+  }
+  
+  button:hover {
+    background-color: #b38459;
+  }

@@ -2,18 +2,18 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-pantalla1',
+  selector: 'app-button1',
   standalone: true,
   imports: [],
-  templateUrl: './pantalla1.component.html',
-  styleUrl: './pantalla1.component.css'
+  templateUrl: './button1.component.html',
+  styleUrl: './button1.component.css'
 })
-export class Pantalla1Component {
+export class Button1Component {
   constructor(private route:Router){
 
   }
 
   goToPantalla2(){
-    this.route.navigateByUrl('/pantalla2');
+    this.route.navigateByUrl('/Screen2');
   }
 }

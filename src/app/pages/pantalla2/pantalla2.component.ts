@@ -1,18 +1,13 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { TitleComponent } from '../../../components/title/title.component';
+import { Button2Component } from '../../../components/button2/button2.component';
 
 @Component({
   selector: 'app-pantalla2',
   standalone: true,
-  imports: [],
+  imports: [TitleComponent,Button2Component],
   templateUrl: './pantalla2.component.html',
   styleUrl: './pantalla2.component.css'
 })
 export class Pantalla2Component {
-constructor(private route:Router){
-}
-
-goToPantalla3(){
-  this.route.navigateByUrl('/pantalla3');
-  }
 }

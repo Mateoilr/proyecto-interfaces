@@ -12,11 +12,7 @@
     border: 2px solid #7CB9A8;
   }
   
-  h1 {
-    color: #D4A373;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-  }
+  
   
   .image-container {
     background-color: white;
@@ -25,26 +21,15 @@
     margin: 20px 0;
   }
   
+
   img {
     width: 350px;
     height: auto;
+    animation-duration: 3s;
+    animation-name: wobble;
+  
   }
   
-  button {
-    background-color: #D4A373;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  button:hover {
-    background-color: #b38459;
-  }
-  
-  /* Estilos para la burbuja de diálogo */
   .speech-bubble {
     position: relative;
     background: #ffffff;
@@ -54,6 +39,8 @@
     border: 2px solid #000;
     width: 80%;
     max-width: 300px;
+    animation-duration: 3s;
+    animation-name: backInDown;
   }
   
   .speech-bubble:after {

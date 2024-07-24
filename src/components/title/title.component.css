@@ -1,0 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+
+
+h1 {
+    font-family: "Ribeye", serif;
+    color: #D4A373;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: swing;
+    
+  }
+ 
